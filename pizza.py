@@ -1,6 +1,8 @@
 print("hello world")
 
-while True:
+ordering = True
+
+while ordering:
     topping = input("topping: ")
 
     if topping == "q":
